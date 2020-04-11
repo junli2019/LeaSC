@@ -49,26 +49,3 @@ end
 acc=accplrall;
 nmi=nmiplrall;
 end
-
-
-% %% Clustering by lbsc
-% % [accplrtrain, nmiplrtrain]=accncutLSC(Zlsr',gnd);
-% %[accplrall, nmiplrall]=accncutLSC(H{end}',gnd);
-% % accplrall=0;
-% R2=H{end};
-% for i=1:size(theta,2)
-% theta(i) 
-% R=R2.*(R2>theta(i))+R2.*(R2<-theta(i));
-% [accplrall_temp, nmiplrall_temp]=accncutLSC(R',gnd)
-% if accplrall_temp>=accplrall
-%    accplrall=accplrall_temp;
-%    nmiplrall=nmiplrall_temp;
-% end
-% end
-% %disp(['train acc:     ' num2str(accplrtrain)]);
-% %disp(['train nmi:     ' num2str(nmiplrtrain)]);
-% disp(['all data acc:  ' num2str(accplrall)]);
-% disp(['all data nmi:  ' num2str(nmiplrall)]);
-% disp(['coding time:   ' num2str(codingtime)]);
-% acc=[accplrtrain;accplrall];
-% nmi=[nmiplrtrain;nmiplrall];
