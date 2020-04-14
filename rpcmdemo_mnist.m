@@ -1,10 +1,10 @@
 clear all;
-addpath( '/home/lijun/works/codes/journals/IEEE-TNNLS/LeaSC/utilities' ) ;
+addpath( '.../LeaSC/utilities' ) ;
 
-load MNIST_SCALL; 
-
+%load MNIST_SCALL; 
+% Before you run this code, you need to extract features of MNIST as follows.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%     extract features on MNIST    %%%%%%%%%%%%%%%%
+%%%%%%%%%     extract features of MNIST    %%%%%%%%%%%%%%%%
 %   = Download scattering transform package ScatNet (v0.2) from
 %     http://www.di.ens.fr/data/software/
 %     and install.
