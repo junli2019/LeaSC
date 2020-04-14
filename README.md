@@ -11,13 +11,8 @@ We compute the feature vectors of each image by using a scattering
 convolution network [Bruna and Mallat, 2013]. The size of the dimension is 3,472. 
 
 @article{li2020LeaSC,
-
 	Author = {Jun Li and Hongfu Liu and Zhiqiang Tao and Handong Zhao and Yun Fu},
-	
 	Title = {Learnable Subspace Clustering},
-	
 	URL = {https://arxiv.org/pdf/2004.04520.pdf},
-	
 	Booktitle = {arXiv:2004.04520}
-	
 	Year = {2020}}
