@@ -49,7 +49,7 @@ while iter<maxIter
     %update J
     temp = Z + Q2/mu;
     J = Shrink_L1(temp,overlinealpha/mu);
-    J = J - diag(diag(J));
+    %J = J - diag(diag(J));
     if (iter>trainIter) && (iter<maxIter)
        [weight,J,~]=Learnmap(weight,J,X,opts);
     end
